@@ -6,7 +6,7 @@
 
 This repository contains the source code and technical report for my final project in **EEE 443/543 - Neural Networks** at Bilkent University. The goal is to automate the diagnosis of skin cancer by classifying dermoscopic images into **9 distinct categories**, covering both malignant (e.g., Melanoma) and benign (e.g., Nevus) lesions.
 
-## 🧠 Model Architectures
+## Model Architectures
 
 I implemented and compared three state-of-the-art deep learning architectures to evaluate their performance on limited medical data:
 
@@ -14,7 +14,7 @@ I implemented and compared three state-of-the-art deep learning architectures to
 2. **ResNet18**: A solid baseline that showed stable generalization but lower peak accuracy (67.16%).
 3. **Vision Transformer (ViT-B/16)**: While powerful, it struggled with overfitting due to the small dataset size (approx. 2,357 images), resulting in a large gap between validation and test scores.
 
-## 📂 Project Structure
+## Project Structure
 ```
 ├── data/                   # Dataset folder (Place ISIC images here)
 │   ├── actinic keratosis/
@@ -26,7 +26,7 @@ I implemented and compared three state-of-the-art deep learning architectures to
 └── Report.pdf              # Detailed technical report
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
 ```bash
